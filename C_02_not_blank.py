@@ -1,5 +1,5 @@
 def not_blank(question):
-   """Checks that a user response is not blank"""
+    """Checks that a user response is not blank"""
 
     while True:
         response = input(question)
@@ -7,7 +7,7 @@ def not_blank(question):
         if response != "":
             return response
 
-        print("Sorry, this can't be blank. Please try again. \n")
+        print("Sorry, this can't be blank. Please try again.\n")
 
 
 # main routine starts here
